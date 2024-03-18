@@ -10,7 +10,7 @@ import {
   SMediaInfo,
   SMediaInfoTexts,
   STitle,
-} from "./page.styled";
+} from "./info.styled";
 import { fetchMediaAndRecommendations } from "@/src/ApiCalls";
 
 export default async function InfoPage({

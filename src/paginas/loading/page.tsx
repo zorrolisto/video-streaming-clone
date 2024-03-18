@@ -1,6 +1,6 @@
 "use client";
 
-import { SContainer, SLoadingIcon } from "./page.styled";
+import { SContainer, SLoadingIcon } from "./loading.styled";
 
 export default function LoadingPage() {
   return (

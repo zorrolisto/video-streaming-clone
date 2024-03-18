@@ -1,5 +1,5 @@
 "use client";
 
-import HomePage from "@/src/pages/home/page";
+import HomePage from "@/src/paginas/home/page";
 
 export default () => <HomePage />;
