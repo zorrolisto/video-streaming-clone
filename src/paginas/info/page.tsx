@@ -11,7 +11,7 @@ import {
   SMediaInfoTexts,
   STitle,
 } from "./info.styled";
-import { fetchMediaAndRecommendations } from "@/src/apiCalls";
+import { fetchMediaAndRecommendations } from "@/src/ApiCalls";
 
 export default async function InfoPage({
   params,
