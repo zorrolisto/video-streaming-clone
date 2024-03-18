@@ -12,7 +12,7 @@ import {
   selectNewMovies,
 } from "../store/mediaSlice";
 import { useAppDispatch, useAppSelector } from "../store/hooks";
-import { fetchMovies, fetchNewMovies } from "../ApiCalls";
+import { fetchMovies, fetchNewMovies } from "../apiCalls";
 import {
   getArrayFromLocalStorage,
   setArrayToLocalStorage,

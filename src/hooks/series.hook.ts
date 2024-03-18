@@ -10,7 +10,7 @@ import {
   removeFavoriteSerie,
 } from "../store/mediaSlice";
 import { useAppDispatch, useAppSelector } from "../store/hooks";
-import { fetchSeries } from "../ApiCalls";
+import { fetchSeries } from "../apiCalls";
 import {
   getArrayFromLocalStorage,
   setArrayToLocalStorage,

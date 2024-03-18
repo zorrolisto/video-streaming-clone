@@ -40,7 +40,7 @@ export const PreviewCardList = ({
 }: IProps) => {
   const settings = {
     dots: false,
-    infinite: true,
+    infinite: false,
     slidesToShow: 4,
     slidesToScroll: 1,
     responsive: [
