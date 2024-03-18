@@ -21,10 +21,10 @@ interface IProps {
   state?: EFetchState;
   data: TMediaType[];
   title: string;
-  link: string;
+  link?: string;
   typeOfMedia: EMediaType;
   addFavorite?: (_: TMediaType) => any;
-  removeFavorite: (id: number) => void;
+  removeFavorite?: (id: number) => void;
   mediaLikable?: boolean;
 }
 
@@ -32,7 +32,7 @@ export const PreviewCardList = ({
   state,
   data,
   title,
-  link,
+  link = "#",
   typeOfMedia,
   addFavorite,
   removeFavorite,
